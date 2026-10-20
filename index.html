@@ -3,15 +3,165 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jaiden Lo </title>
+  <title>Jaiden Lo</title>
+  <!-- TODO: one-sentence summary shown in search results and link previews -->
+  <meta name="description" content="Jaiden Lo — portfolio and projects.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hi, I'm Jaiden</h1>
-  <p>I build things. Here are a few of them.</p>
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="https://github.com/you/project">Project One</a> – what it does</li>
-  </ul>
-  <p><a href="mailto:you@example.com">Contact me</a></p>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="logo">JL</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero container">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>Jaiden Lo</h1>
+      <!-- TODO: your role / one-line pitch -->
+      <p class="tagline">Developer &amp; builder. I make things for the web.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <!-- TODO: add resume.pdf to this folder, or remove this button -->
+        <a href="resume.pdf" class="btn">Resume</a>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <div class="about">
+        <!-- TODO: add a photo named me.jpg to this folder (square works best) -->
+        <img src="me.jpg" alt="Photo of Jaiden Lo" class="avatar">
+        <div>
+          <!-- TODO: 2–3 short paragraphs about you -->
+          <p>Write a short intro here: who you are, what you're studying or working on, and what you care about.</p>
+          <p>Add a line about what you're looking for right now (internships, freelance work, collaborators) and something you enjoy outside of coding.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <!-- TODO: copy/paste an <article class="card"> block for each project -->
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <div class="grid">
+
+        <article class="card">
+          <!-- Optional: <img src="images/project-one.png" alt="Screenshot of Project One" class="card-img"> -->
+          <h3>Project One</h3>
+          <p>What it does, the problem it solves, and your role in one or two sentences.</p>
+          <ul class="tags">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com/Slimosaurus/project-one">Code</a>
+            <a href="#">Live demo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>What it does, the problem it solves, and your role in one or two sentences.</p>
+          <ul class="tags">
+            <li>Python</li><li>Flask</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com/Slimosaurus/project-two">Code</a>
+            <a href="#">Live demo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>What it does, the problem it solves, and your role in one or two sentences.</p>
+          <ul class="tags">
+            <li>React</li><li>Node.js</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com/Slimosaurus/project-three">Code</a>
+            <a href="#">Live demo</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <!-- TODO: edit the categories and items -->
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Languages</h3>
+          <ul class="tags"><li>JavaScript</li><li>Python</li><li>Java</li></ul>
+        </div>
+        <div>
+          <h3>Frameworks</h3>
+          <ul class="tags"><li>React</li><li>Node.js</li></ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul class="tags"><li>Git</li><li>VS Code</li><li>Figma</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <!-- TODO: one <li> per job, internship, club, or school role. Delete this section if you don't need it -->
+    <section id="experience" class="section container">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li>
+          <div class="timeline-head">
+            <h3>Role Title · Organization</h3>
+            <span class="date">2025 – Present</span>
+          </div>
+          <p>One or two lines on what you did and what came of it.</p>
+        </li>
+        <li>
+          <div class="timeline-head">
+            <h3>Role Title · Organization</h3>
+            <span class="date">2024 – 2025</span>
+          </div>
+          <p>One or two lines on what you did and what came of it.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section container contact">
+      <h2>Get in touch</h2>
+      <p>I'm open to new opportunities. The best way to reach me is email.</p>
+      <!-- TODO: put the email you want public here -->
+      <a href="mailto:you@example.com" class="btn btn-primary">Email me</a>
+      <ul class="socials">
+        <li><a href="https://github.com/Slimosaurus">GitHub</a></li>
+        <!-- TODO: your LinkedIn URL, or delete -->
+        <li><a href="https://www.linkedin.com/in/your-handle">LinkedIn</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Jaiden Lo</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
+ 
