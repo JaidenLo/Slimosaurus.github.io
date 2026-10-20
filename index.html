@@ -25,16 +25,21 @@
 
   <main id="top">
 
-    <!-- ===== HERO ===== -->
+    
     <section class="hero container">
-      <p class="eyebrow">Hi, I'm</p>
-      <h1>Jaiden Lo</h1>
-      <!-- TODO: your role / one-line pitch -->
-      <p class="tagline">Developer &amp; builder. I make things for the web.</p>
+      <h1>
+        <span class="greeting">Hi, I'm <span class="wave" aria-hidden="true"></span></span>
+        <span class="name">Jaiden Lo</span>
+      </h1>
+      <p class="tagline">Making random fun stuff for fun</p>
+      <ul class="hero-meta">
+        <li>West Kelowna, British Columbia</li>
+        <li><a href="jaiden@ccltechnology.ca">jaiden@ccltechnology.ca</a></li>
+        <li>Open to internships &amp; freelance work</li>
+      </ul>
       <div class="hero-actions">
         <a href="#projects" class="btn btn-primary">See my work</a>
-        <!-- TODO: add resume.pdf to this folder, or remove this button -->
-        <a href="resume.pdf" class="btn">Resume</a>
+        <a href="Jaiden_Resume_2026.pdf" class="btn">Resume</a>
       </div>
     </section>
 
@@ -42,12 +47,13 @@
     <section id="about" class="section container">
       <h2>About</h2>
       <div class="about">
-        <!-- TODO: add a photo named me.jpg to this folder (square works best) -->
-        <img src="me.jpg" alt="Photo of Jaiden Lo" class="avatar">
+        
         <div>
-          <!-- TODO: 2–3 short paragraphs about you -->
-          <p>Write a short intro here: who you are, what you're studying or working on, and what you care about.</p>
-          <p>Add a line about what you're looking for right now (internships, freelance work, collaborators) and something you enjoy outside of coding.</p>
+          
+          <p>I'm a computer science graduate student from UBC whose interest lies in making small projects that aid in my creativity, I have worked in multiple fields, with experience in backend 
+            programming and on-site IT work. My core focus right now is making a module on FoundryVTT (D&D Platform) that allows the connection from
+            Twitch chat into a live game, so viewers watching the stream can roll dice and even possess monsters to fight the players during combat.
+          </p>
         </div>
       </div>
     </section>
@@ -60,14 +66,16 @@
 
         <article class="card">
           <!-- Optional: <img src="images/project-one.png" alt="Screenshot of Project One" class="card-img"> -->
-          <h3>Project One</h3>
-          <p>What it does, the problem it solves, and your role in one or two sentences.</p>
+          <h3>Capstone Project - Coding Project Analyzer</h3>
+          <p>Built full-stack app using React, FastAPI, and PostgreSQL that analyzes coding projects to auto-generate resumes
+            and portfolios</p>
           <ul class="tags">
             <li>HTML</li><li>CSS</li><li>JavaScript</li>
           </ul>
           <div class="card-links">
-            <a href="https://github.com/Slimosaurus/project-one">Code</a>
-            <a href="#">Live demo</a>
+            <a href="https://github.com/Slimosaurus/project-two">Code</a>
+            <a href="https://docs.google.com/presentation/d/1H4AYLgQ6WFC7Gk9VindPagac7Ok_ujaa8-DxHqIvn7Q/edit?usp=sharing">Slide Deck</a>
+            
           </div>
         </article>
 
@@ -79,7 +87,7 @@
           </ul>
           <div class="card-links">
             <a href="https://github.com/Slimosaurus/project-two">Code</a>
-            <a href="#">Live demo</a>
+            <a href="https://docs.google.com/presentation/d/1H4AYLgQ6WFC7Gk9VindPagac7Ok_ujaa8-DxHqIvn7Q/edit?usp=sharing">Slide Deck</a>
           </div>
         </article>
 
@@ -99,43 +107,63 @@
     </section>
 
     <!-- ===== SKILLS ===== -->
-    <!-- TODO: edit the categories and items -->
     <section id="skills" class="section container">
       <h2>Skills</h2>
       <div class="skills">
         <div>
           <h3>Languages</h3>
-          <ul class="tags"><li>JavaScript</li><li>Python</li><li>Java</li></ul>
+          <ul class="tags"><li>Java</li><li>Python</li><li>C/C++</li><li>SQL (Postgres)</li><li>JavaScript</li><li>HTML/CSS</li><li>R</li></ul>
         </div>
         <div>
           <h3>Frameworks</h3>
-          <ul class="tags"><li>React</li><li>Node.js</li></ul>
+          <ul class="tags"><li>React.js</li><li>Node.js</li><li>FastAPI</li></ul>
         </div>
         <div>
-          <h3>Tools</h3>
-          <ul class="tags"><li>Git</li><li>VS Code</li><li>Figma</li></ul>
+          <h3>Developer Tools</h3>
+          <ul class="tags"><li>Git</li><li>Docker</li><li>VS Code</li><li>npm</li><li>Figma</li></ul>
+        </div>
+        <div>
+          <h3>Databases</h3>
+          <ul class="tags"><li>PostgreSQL</li><li>MongoDB</li></ul>
+        </div>
+        <div>
+          <h3>Other</h3>
+          <ul class="tags"><li>RESTful APIs</li><li>Windows support</li><li>Network troubleshooting</li><li>Computer diagnostics</li><li>Excel</li><li>Canva</li></ul>
         </div>
       </div>
     </section>
 
     <!-- ===== EXPERIENCE ===== -->
-    <!-- TODO: one <li> per job, internship, club, or school role. Delete this section if you don't need it -->
     <section id="experience" class="section container">
       <h2>Experience</h2>
       <ol class="timeline">
         <li>
           <div class="timeline-head">
-            <h3>Role Title · Organization</h3>
-            <span class="date">2025 – Present</span>
+            <h3>IT Technician · Great River Financial Services</h3>
+            <span class="date">Jun 2025 – Jan 2026 · Kelowna, BC</span>
           </div>
-          <p>One or two lines on what you did and what came of it.</p>
+          <p>Provided on-call support for Lenovo laptops across client sites throughout the Okanagan, diagnosing and repairing hardware and software issues to minimize downtime.</p>
         </li>
         <li>
           <div class="timeline-head">
-            <h3>Role Title · Organization</h3>
-            <span class="date">2024 – 2025</span>
+            <h3>President · Okanagan Esports Association SUO</h3>
+            <span class="date">Sep 2024 – Apr 2026 · Kelowna, BC</span>
           </div>
-          <p>One or two lines on what you did and what came of it.</p>
+          <p>Led club operations and executive hiring, ran community and charity events that raised $3,000+ for Extra Life, partnered with other university clubs, and managed a 1,500+ member Discord server.</p>
+        </li>
+        <li>
+          <div class="timeline-head">
+            <h3>IT Technician · Campus Computers Ltd</h3>
+            <span class="date">Sep 2020 – Apr 2022 · Victoria, BC</span>
+          </div>
+          <p>Built and repaired desktop computers, replaced faulty hardware, and installed and configured operating systems and software for customers.</p>
+        </li>
+        <li>
+          <div class="timeline-head">
+            <h3>Seed and Gift Store Employee · Butchart Gardens</h3>
+            <span class="date">May 2019 – Aug 2019 · Victoria, BC</span>
+          </div>
+          <p>Helped guests with product recommendations, handled point-of-sale transactions, and managed seed and gift inventory.</p>
         </li>
       </ol>
     </section>
@@ -145,11 +173,10 @@
       <h2>Get in touch</h2>
       <p>I'm open to new opportunities. The best way to reach me is email.</p>
       <!-- TODO: put the email you want public here -->
-      <a href="mailto:you@example.com" class="btn btn-primary">Email me</a>
+      <a href="mailto:jaiden@ccltechnology.ca" class="btn btn-primary">Email me</a>
       <ul class="socials">
-        <li><a href="https://github.com/Slimosaurus">GitHub</a></li>
-        <!-- TODO: your LinkedIn URL, or delete -->
-        <li><a href="https://www.linkedin.com/in/your-handle">LinkedIn</a></li>
+        <li><a href="https://github.com/JaidenLo">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/jaiden-lo-49b3b5266/">LinkedIn</a></li>
       </ul>
     </section>
 
