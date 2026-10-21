@@ -239,20 +239,22 @@ h1, h2, h3 { line-height: 1.2; margin: 0 0 0.5em; }
 /* Projects */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+  gap: 24px;
 }
 
 .card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 24px;
+  padding: 32px;
   display: flex;
   flex-direction: column;
 }
 
-.card p { color: var(--muted); flex: 1; }
+.card h3 { font-size: 1.35rem; }
+
+.card p { color: var(--muted); flex: 1; font-size: 1.05rem; }
 
 .card-img {
   border-radius: 8px;
